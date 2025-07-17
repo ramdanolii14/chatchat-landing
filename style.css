@@ -1,0 +1,154 @@
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: #fff;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Navbar & Hero */
+.hero {
+  background: #fff;
+  padding: 20px 40px;
+  text-align: center;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.logo span {
+  color: #e63946;
+}
+
+.hero-content {
+  max-width: 700px;
+  margin: 60px auto;
+}
+
+.hero-content h2 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.hero-content p {
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.btn {
+  background: #e63946;
+  color: #fff;
+  padding: 12px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background: #c92d3a;
+}
+
+.btn-outline {
+  border: 2px solid #e63946;
+  color: #e63946;
+  padding: 10px 18px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.btn-outline:hover {
+  background: #e63946;
+  color: #fff;
+}
+
+/* Features */
+.features {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  max-width: 1100px;
+  margin: 60px auto;
+  padding: 0 20px;
+}
+
+.feature {
+  border: 1px solid #e63946;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  background: #fff;
+  transition: transform 0.3s ease;
+}
+
+.feature:hover {
+  transform: translateY(-5px);
+}
+
+/* Preview */
+.preview {
+  text-align: center;
+  margin: 60px 20px;
+}
+
+.preview h2 {
+  margin-bottom: 20px;
+}
+
+.preview img {
+  max-width: 90%;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* CTA */
+.cta {
+  background: #e63946;
+  color: #fff;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.cta h2 {
+  margin-bottom: 20px;
+}
+
+.cta .btn {
+  background: #fff;
+  color: #e63946;
+}
+
+.cta .btn:hover {
+  background: #f1f1f1;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 20px;
+  background: #f8f8f8;
+  color: #777;
+  font-size: 0.9rem;
+}
